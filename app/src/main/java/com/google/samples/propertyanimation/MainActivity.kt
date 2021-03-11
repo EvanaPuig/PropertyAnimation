@@ -37,12 +37,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         star = findViewById(R.id.star)
-        rotateButton = findViewById<Button>(R.id.rotateButton)
-        translateButton = findViewById<Button>(R.id.translateButton)
-        scaleButton = findViewById<Button>(R.id.scaleButton)
-        fadeButton = findViewById<Button>(R.id.fadeButton)
-        colorizeButton = findViewById<Button>(R.id.colorizeButton)
-        showerButton = findViewById<Button>(R.id.showerButton)
+        rotateButton = findViewById(R.id.rotateButton)
+        translateButton = findViewById(R.id.translateButton)
+        scaleButton = findViewById(R.id.scaleButton)
+        fadeButton = findViewById(R.id.fadeButton)
+        colorizeButton = findViewById(R.id.colorizeButton)
+        showerButton = findViewById(R.id.showerButton)
 
         rotateButton.setOnClickListener {
             rotater()
